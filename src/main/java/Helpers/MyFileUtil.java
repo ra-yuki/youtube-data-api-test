@@ -1,3 +1,5 @@
+package Helpers;
+
 import org.w3c.dom.Document;
 import org.xml.sax.InputSource;
 
@@ -9,7 +11,7 @@ import java.io.BufferedReader;
 import java.io.StringReader;
 import java.net.URL;
 
-class MyFileUtil {
+public class MyFileUtil {
 
     public static Document loadXMLFromString(String xml) throws Exception
     {
